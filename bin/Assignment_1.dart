@@ -15,4 +15,7 @@ void main()
   print("Multiplication: $a * $b = $multiplication");
   print("Division: $a / $b = $division");
   print("Modulus: $a % $b = $modulus");
+
+  var map = {"name": "John", "age": 30};
+  print(map["name"]);
 }
